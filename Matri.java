@@ -1,3 +1,4 @@
+// THIS IS HOW TWO MATRIX IS MULTLIPED IN JAVA
 import java.util.Scanner;
 
 class Matri
