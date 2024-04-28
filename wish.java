@@ -5,7 +5,7 @@ class wish
         int n=5;
         while(n>5)
         {
-            System.out.println("HAPPY BIRTHDAY AMMA");
+            System.out.println(" hello");
         }
         
 
