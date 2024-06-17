@@ -1,0 +1,56 @@
+public class FibonacciSeries {
+    public static void main(String[] args) {
+        int n = 10; // Number of elements in the series
+        int a = 0, b = 1, next;
+
+        System.out.print("Fibonacci Series: " + a + " " + b);
+
+        for (int i = 2; i < n; i++) {
+            next = a + b;
+            a = b;
+            b = next;
+            System.out.print(" " + next);
+        }
+    }
+}
+__________________________________________________________________________________________________________
+public class Factorial {
+    public static void main(String[] args) {
+        int number = 5; // Input number
+        long factorial = 1;
+
+        for (int i = 1; i <= number; i++) {
+            factorial *= i;
+        }
+
+        System.out.println("Factorial of " + number + " is: " + factorial);
+    }
+}
+________________________________________________________________________________________________________________
+public class Palindrome {
+    public static void main(String[] args) {
+        String str = "madonna"; // Input string
+        String reversedStr = new StringBuilder(str).reverse().toString();
+
+        if (str.equals(reversedStr)) {
+            System.out.println(str + " is a palindrome.");
+        } else {
+            System.out.println(str + " is not a palindrome.");
+        }
+    }
+}
+_________________________________________________________________________________________________________________
+public class PrimeCheck {
+    public static void main(String[] args) {
+        int num = 29; // Input number
+        boolean isPrime = true;
+
+        for (int i = 2; i <= num / 2; i++) {
+            if (num % i == 0) {
+                isPrime = false;
+                break;
+            }
+        }
+
+       
+
